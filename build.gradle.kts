@@ -7,7 +7,7 @@ plugins {
     id("org.quiltmc.quilt-mappings-on-loom") version "4.2.0"
 }
 
-group = "de.dasphiller"
+group = "net.fabricmc.example"
 version = "1.0-SNAPSHOT"
 
 repositories {
