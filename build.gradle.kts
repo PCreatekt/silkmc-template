@@ -26,7 +26,8 @@ dependencies {
     modImplementation("net.axay:fabrikmc-core:1.8.0")
     modImplementation("net.axay:fabrikmc-commands:1.8.0")
     modImplementation("net.axay:fabrikmc-igui:1.8.0")
-
+    modImplementation("net.axay:fabrikmc-nbt:1.8.0")
+    modImplementation("net.axay:fabrikmc-persistence:1.8.0")
 }
 
 tasks.test {
