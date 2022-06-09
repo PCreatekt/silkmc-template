@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.7.0-RC2"
+    kotlin("jvm") version "1.7.0"
     id("fabric-loom") version "0.12-SNAPSHOT"
     id("io.github.juuxel.loom-quiltflower") version "1.7.2"
     id("org.quiltmc.quilt-mappings-on-loom") version "4.2.0"
