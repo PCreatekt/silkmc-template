@@ -22,7 +22,7 @@ dependencies {
     })
     modImplementation("net.fabricmc:fabric-loader:0.14.6")
     modImplementation("net.fabricmc.fabric-api:fabric-api:0.55.1+1.19")
-    modImplementation("net.fabricmc:fabric-language-kotlin:1.7.4+kotlin.1.6.21")
+    modImplementation("net.fabricmc:fabric-language-kotlin:1.8.0+kotlin.1.7.0")
     modImplementation("net.axay:fabrikmc-core:1.8.0")
     modImplementation("net.axay:fabrikmc-commands:1.8.0")
     modImplementation("net.axay:fabrikmc-igui:1.8.0")
