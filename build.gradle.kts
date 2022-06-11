@@ -20,14 +20,14 @@ dependencies {
         addLayer(quiltMappings.mappings("org.quiltmc:quilt-mappings:1.19+build.1:v2"))
         officialMojangMappings()
     })
-    modImplementation("net.fabricmc:fabric-loader:0.14.6")
-    modImplementation("net.fabricmc.fabric-api:fabric-api:0.55.1+1.19")
+    modImplementation("net.fabricmc:fabric-loader:0.14.7")
+    modImplementation("net.fabricmc.fabric-api:fabric-api:0.55.3+1.19")
     modImplementation("net.fabricmc:fabric-language-kotlin:1.8.0+kotlin.1.7.0")
-    modImplementation("net.axay:fabrikmc-core:1.8.0")
-    modImplementation("net.axay:fabrikmc-commands:1.8.0")
-    modImplementation("net.axay:fabrikmc-igui:1.8.0")
-    modImplementation("net.axay:fabrikmc-nbt:1.8.0")
-    modImplementation("net.axay:fabrikmc-persistence:1.8.0")
+    modImplementation("net.axay:fabrikmc-core:1.8.1")
+    modImplementation("net.axay:fabrikmc-commands:1.8.1")
+    modImplementation("net.axay:fabrikmc-igui:1.8.1")
+    modImplementation("net.axay:fabrikmc-nbt:1.8.1")
+    modImplementation("net.axay:fabrikmc-persistence:1.8.1")
 }
 
 tasks.test {
