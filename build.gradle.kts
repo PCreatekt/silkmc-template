@@ -29,6 +29,7 @@ dependencies {
     modImplementation("net.axay:fabrikmc-nbt:1.8.1")
     modImplementation("net.axay:fabrikmc-persistence:1.8.1")
     modImplementation("net.axay:fabrikmc-game:1.8.1")
+    modImplementation("net.axay:fabrikmc-network:1.8.1")
 }
 
 tasks.test {
