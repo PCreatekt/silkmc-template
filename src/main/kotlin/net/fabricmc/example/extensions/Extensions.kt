@@ -1,4 +1,4 @@
-package de.dasphiller.fortcraft.extensions
+package net.fabricmc.example.extensions
 
 import net.axay.fabrik.core.Fabrik
 import net.minecraft.core.Registry
