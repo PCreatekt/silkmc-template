@@ -3,7 +3,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     kotlin("jvm") version "1.7.0"
     id("fabric-loom") version "0.12-SNAPSHOT"
-    id("io.github.juuxel.loom-quiltflower") version "1.7.2"
+    id("io.github.juuxel.loom-quiltflower") version "1.7.3"
     id("org.quiltmc.quilt-mappings-on-loom") version "4.2.0"
 }
 
@@ -21,7 +21,7 @@ dependencies {
         officialMojangMappings()
     })
     modImplementation("net.fabricmc:fabric-loader:0.14.8")
-    modImplementation("net.fabricmc.fabric-api:fabric-api:0.55.3+1.19")
+    modImplementation("net.fabricmc.fabric-api:fabric-api:0.56.1+1.19")
     modImplementation("net.fabricmc:fabric-language-kotlin:1.8.0+kotlin.1.7.0")
     modImplementation("net.axay:fabrikmc-core:1.8.1")
     modImplementation("net.axay:fabrikmc-commands:1.8.1")
