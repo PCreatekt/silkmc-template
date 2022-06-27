@@ -21,15 +21,15 @@ dependencies {
         officialMojangMappings()
     })
     modImplementation("net.fabricmc:fabric-loader:0.14.8")
-    modImplementation("net.fabricmc.fabric-api:fabric-api:0.56.1+1.19")
+    modImplementation("net.fabricmc.fabric-api:fabric-api:0.56.3+1.19")
     modImplementation("net.fabricmc:fabric-language-kotlin:1.8.0+kotlin.1.7.0")
-    modImplementation("net.axay:fabrikmc-core:1.8.1")
-    modImplementation("net.axay:fabrikmc-commands:1.8.1")
-    modImplementation("net.axay:fabrikmc-igui:1.8.1")
-    modImplementation("net.axay:fabrikmc-nbt:1.8.1")
-    modImplementation("net.axay:fabrikmc-persistence:1.8.1")
-    modImplementation("net.axay:fabrikmc-game:1.8.1")
-    modImplementation("net.axay:fabrikmc-network:1.8.1")
+    modImplementation("net.silkmc:silk-core:1.9.0")
+    modImplementation("net.silkmc:silk-commands:1.9.0")
+    modImplementation("net.silkmc:silk-igui:1.9.0")
+    modImplementation("net.silkmc:silk-nbt:1.9.0")
+    modImplementation("net.silkmc:silk-persistence:1.9.0")
+    modImplementation("net.silkmc:silk-game:1.9.0")
+    modImplementation("net.silkmc:silk-network:1.9.0")
 }
 
 tasks.test {
