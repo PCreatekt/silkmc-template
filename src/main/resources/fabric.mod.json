@@ -30,13 +30,13 @@
     "fabric": "*",
     "fabric-language-kotlin": "*",
     "minecraft": "1.19",
-    "fabrikmc-core": "*",
-    "fabrikmc-commands": "*",
-    "fabrikmc-nbt": "*"
+    "silk-core": "*",
+    "silk-commands": "*",
+    "silk-nbt": "*"
   },
   "suggests": {
     "flamingo": "*",
-    "fabrikmc-igui": "*",
-    "fabrikmc-persistence": "*"
+    "silk-igui": "*",
+    "silk-persistence": "*"
   }
 }
