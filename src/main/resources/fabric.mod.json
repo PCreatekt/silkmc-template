@@ -32,7 +32,10 @@
     "minecraft": "1.19",
     "silk-core": "*",
     "silk-commands": "*",
-    "silk-nbt": "*"
+    "silk-nbt": "*",
+    "silk-igui": "*",
+    "silk-persistence": "*",
+    "silk-compose": "*"
   },
   "suggests": {
     "flamingo": "*",
