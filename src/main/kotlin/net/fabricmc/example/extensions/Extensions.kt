@@ -1,7 +1,7 @@
 package net.fabricmc.example.extensions
 
-import net.axay.fabrik.core.Fabrik
-import net.axay.fabrik.core.text.sendText
+import net.silkmc.silk.core.Silk
+import net.silkmc.silk.core.text.sendText
 import net.minecraft.core.Registry
 import net.minecraft.resources.ResourceKey
 import net.minecraft.resources.ResourceLocation
@@ -15,7 +15,7 @@ fun world(world_name: String): ServerLevel {
 }
 
 fun broadcast(text: String, color: Int = 0xffffff, italic: Boolean = false, bold: Boolean = false) {
-    Fabrik.currentServer?.playerList?.players?.forEach {
+    Silk.currentServer?.playerList?.players?.forEach {
         it.sendText {
             text(text) {
                 this.color = color
