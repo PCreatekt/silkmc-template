@@ -5,8 +5,6 @@ plugins {
     id("fabric-loom") version "0.12-SNAPSHOT"
     id("io.github.juuxel.loom-quiltflower") version "1.7.3"
     id("org.quiltmc.quilt-mappings-on-loom") version "4.2.0"
-    id("com.google.devtools.ksp") version "1.7.0-1.0.6" apply false
-    id("org.jetbrains.compose") version "1.2.0-alpha01-dev725" apply false
 }
 
 group = "net.fabricmc.example"
@@ -14,9 +12,6 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
-    google()
-    maven("https://androidx.dev/storage/compose-compiler/repository")
-    maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
 }
 
 dependencies {
@@ -35,22 +30,6 @@ dependencies {
     modImplementation("net.silkmc:silk-persistence:1.9.0")
     modImplementation("net.silkmc:silk-game:1.9.0")
     modImplementation("net.silkmc:silk-network:1.9.0")
-    modImplementation("net.silkmc:silk-compose:1.0.0") {
-        attributes {
-            attribute(Attribute.of("ui", String::class.java), "awt")
-        }
-    }
-}
-
-configurations.all {
-    attributes {
-        attribute(Attribute.of("ui", String::class.java), "awt")
-    }
-    resolutionStrategy.dependencySubstitution {
-        substitute(module("org.jetbrains.compose.compiler:compiler")).apply {
-            using(module("androidx.compose.compiler:compiler:1.2.0-dev-k1.7.0-53370d83bb1"))
-        }
-    }
 }
 
 tasks.test {
