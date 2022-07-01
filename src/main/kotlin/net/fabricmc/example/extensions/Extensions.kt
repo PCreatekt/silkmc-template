@@ -15,13 +15,9 @@ fun world(world_name: String): ServerLevel {
 }
 
 fun broadcast(text: String, color: Int = 0xffffff, italic: Boolean = false, bold: Boolean = false) {
-    Silk.currentServer?.playerList?.players?.forEach {
-        it.sendText {
-            text(text) {
-                this.color = color
-                this.italic = italic
-                this.bold = bold
-            }
-        }
+    Silk.currentServer?.playerList?.broadcastSystemMessage(literalText(text) {
+            this.color = color
+            this.italic = italic
+            this.bold = bold
+        }, ChatType.SYSTEM)
     }
-}
