@@ -34,7 +34,7 @@
     "silk-commands": "*",
     "silk-nbt": "*",
     "silk-igui": "*",
-    "silk-persistence": "*",
+    "silk-persistence": "*"
   },
   "suggests": {
     "flamingo": "*",
