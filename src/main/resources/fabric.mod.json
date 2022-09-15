@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "modid",
-  "version": "1.19",
+  "version": "1.19.2",
 
   "name": "Example Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
@@ -34,7 +34,7 @@
     "silk-commands": "*",
     "silk-nbt": "*",
     "silk-igui": "*",
-    "silk-persistence": "*"
+    "silk-persistence": "*",
   },
   "suggests": {
     "flamingo": "*",
