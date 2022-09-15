@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "modid",
-  "version": "1.19.2",
+  "version": "${version}",
 
   "name": "Example Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
@@ -28,8 +28,10 @@
   "depends": {
     "fabricloader": ">=0.8.7",
     "fabric": "*",
+    "fabric-api": "*",
+    "java": ">=17",
     "fabric-language-kotlin": "*",
-    "minecraft": "1.19",
+    "minecraft": "~1.19",
     "silk-core": "*",
     "silk-commands": "*",
     "silk-nbt": "*",
